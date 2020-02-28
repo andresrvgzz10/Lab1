@@ -1,0 +1,64 @@
+h3{
+	background-color: blue;
+	color: white;
+	font-family: Verdana;
+}
+
+hr{
+	background-color: white;
+	border: dotted grey;
+}
+
+#name,#direction{
+	font-size: 10px;
+	font-family: Verdana;
+	text-align: center;
+}
+
+#name{
+	font-size: 30px;
+}
+
+.date{
+	text-align: right;
+	color: grey;
+	font-family: Verdana;
+}
+
+
+div{
+		overflow: auto;
+	}
+
+@media(min-width: 600px) and (max-width: 990px){
+	div{
+		width: auto;
+	}
+
+	h3{
+	background-color: blue;
+	color: white;
+	font-family: Verdana;
+	text-align: center;
+}
+
+
+
+
+
+
+}
+
+@media(min-width: 991){
+	div{
+		background-color: blue;
+		width: auto;
+		float: left;
+	}
+
+	h3{
+	background-color: blue;
+	color: white;
+	font-family: Verdana;
+	text-align: left;}
+}
